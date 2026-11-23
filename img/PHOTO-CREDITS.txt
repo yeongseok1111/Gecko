@@ -1,0 +1,30 @@
+Gecko 쇼핑몰 실사 이미지 출처 및 라이선스
+
+주의: 아래 사진은 종과 외형을 소개하기 위한 참고용 사진입니다. 실제 판매/분양 개체의 사진이 아니며, 상품명에 포함된 특정 모프를 보증하지 않습니다.
+이미지는 Wikimedia Commons의 파일 페이지를 통해 표시합니다. 각 파일 페이지에서 최신 라이선스 및 저작자 표시 조건을 확인할 수 있습니다.
+
+상품 사진
+1. Leopard Gecko.jpg — Swaggyswimmer — CC0
+   https://commons.wikimedia.org/wiki/File:Leopard_Gecko.jpg
+2. Crested gecko.jpg — Michael McConville — CC BY 4.0
+   https://commons.wikimedia.org/wiki/File:Crested_gecko.jpg
+3. Leopard gecko.1.jpg — Rushikesh lohar — CC BY-SA 4.0
+   https://commons.wikimedia.org/wiki/File:Leopard_gecko.1.jpg
+4. Leopard Gecko (141591990).jpg — Mack Male — CC BY-SA 2.0 (Commons 파일 페이지의 상세 조건 확인)
+   https://commons.wikimedia.org/wiki/File:Leopard_Gecko_(141591990).jpg
+5. Gecko leopard.jpg — Irhanz — CC BY-SA 4.0
+   https://commons.wikimedia.org/wiki/File:Gecko_leopard.jpg
+6. CrestedGecko.jpg — SpOuK-3 / Karelle Savaria — Free Art License (FAL)
+   https://commons.wikimedia.org/wiki/File:CrestedGecko.jpg
+7. Gekko gecko.jpg — Molox89 — CC BY-SA 4.0
+   https://commons.wikimedia.org/wiki/File:Gekko_gecko.jpg
+8. Pet Leopard Gecko.PNG — Medeis — CC BY-SA 4.0
+   https://commons.wikimedia.org/wiki/File:Pet_Leopard_Gecko.PNG
+
+메인 배너 사진
+- Leopard Gecko.jpg — https://commons.wikimedia.org/wiki/File:Leopard_Gecko.jpg
+- Crested gecko.jpg — https://commons.wikimedia.org/wiki/File:Crested_gecko.jpg
+- Gecko leopard.jpg — https://commons.wikimedia.org/wiki/File:Gecko_leopard.jpg
+- Gekko gecko.jpg — https://commons.wikimedia.org/wiki/File:Gekko_gecko.jpg
+
+이미지는 Wikimedia Commons의 Special:FilePath 주소로 불러오므로 GitHub Pages에서 표시하려면 인터넷 연결이 필요합니다. 외부 이미지 주소나 라이선스가 변경되면 사진이 표시되지 않을 수 있습니다.

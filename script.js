@@ -3,14 +3,14 @@
    실제 DB 연결 시 아래 배열 구조를 테이블/조회 데이터로 교체하세요.
    ========================================================= */
 const PRODUCTS = [
-  { id: 1, name: "레오파드게코 노멀", category: "레오파드게코", price: 79000, stock: 12, status: "분양 가능", image: "./img/products/leopard-gecko.jpg", description: "차분한 무늬가 매력적인 레오파드게코입니다. 개체별 색상과 패턴은 사진과 다를 수 있습니다." },
-  { id: 2, name: "크레스티드게코 하이포", category: "크레스티드게코", price: 99000, stock: 8, status: "분양 가능", image: "./img/products/crested-gecko.jpg", description: "머리 위 속눈썹 같은 돌기가 특징인 크레스티드게코입니다." },
-  { id: 3, name: "게코류 스노우", category: "기타 게코류", price: 75000, stock: 10, status: "분양 완료", image: "./img/products/snow-gecko.jpg", description: "밝고 부드러운 색감이 돋보이는 게코류 예시 상품입니다." },
-  { id: 4, name: "레오파드게코 하이옐로우", category: "레오파드게코", price: 95000, stock: 6, status: "분양 가능", image: "./img/products/yellow-gecko.jpg", description: "선명한 노란색 계열의 패턴이 특징인 레오파드게코입니다." },
-  { id: 5, name: "레오파드게코 탠저린", category: "레오파드게코", price: 109000, stock: 5, status: "분양 가능", image: "./img/products/leopard2.jpg", description: "따뜻한 오렌지 계열 색감이 매력적인 레오파드게코입니다." },
-  { id: 6, name: "크레스티드게코 달마시안", category: "크레스티드게코", price: 120000, stock: 4, status: "분양 완료", image: "./img/products/crested2.jpg", description: "개성 있는 무늬가 돋보이는 크레스티드게코입니다." },
-  { id: 7, name: "게코류 화이트", category: "기타 게코류", price: 89000, stock: 7, status: "분양 가능", image: "./img/products/gecko2.jpg", description: "밝은 색조의 외형을 가진 게코류 예시 상품입니다." },
-  { id: 8, name: "기타 도마뱀 베이비", category: "기타 도마뱀", price: 69000, stock: 9, status: "분양 가능", image: "./img/products/gecko3.jpg", description: "작은 크기와 귀여운 외형이 특징인 도마뱀 예시 상품입니다." }
+  { id: 1, name: "레오파드게코 노멀", category: "레오파드게코", price: 79000, stock: 12, status: "분양 가능", image: "https://commons.wikimedia.org/wiki/Special:FilePath/Leopard_Gecko.jpg", description: "차분한 무늬가 매력적인 레오파드게코입니다. 개체별 색상과 패턴은 사진과 다를 수 있습니다." },
+  { id: 2, name: "크레스티드게코 하이포", category: "크레스티드게코", price: 99000, stock: 8, status: "분양 가능", image: "https://commons.wikimedia.org/wiki/Special:FilePath/Crested_gecko.jpg", description: "머리 위 속눈썹 같은 돌기가 특징인 크레스티드게코입니다." },
+  { id: 3, name: "게코류 스노우", category: "기타 게코류", price: 75000, stock: 10, status: "분양 완료", image: "https://commons.wikimedia.org/wiki/Special:FilePath/Leopard_gecko.1.jpg", description: "밝고 부드러운 색감이 돋보이는 게코류 예시 상품입니다." },
+  { id: 4, name: "레오파드게코 하이옐로우", category: "레오파드게코", price: 95000, stock: 6, status: "분양 가능", image: "https://commons.wikimedia.org/wiki/Special:FilePath/Leopard_Gecko_%28141591990%29.jpg", description: "선명한 노란색 계열의 패턴이 특징인 레오파드게코입니다." },
+  { id: 5, name: "레오파드게코 탠저린", category: "레오파드게코", price: 109000, stock: 5, status: "분양 가능", image: "https://commons.wikimedia.org/wiki/Special:FilePath/Gecko_leopard.jpg", description: "따뜻한 오렌지 계열 색감이 매력적인 레오파드게코입니다." },
+  { id: 6, name: "크레스티드게코 달마시안", category: "크레스티드게코", price: 120000, stock: 4, status: "분양 완료", image: "https://commons.wikimedia.org/wiki/Special:FilePath/CrestedGecko.jpg", description: "개성 있는 무늬가 돋보이는 크레스티드게코입니다." },
+  { id: 7, name: "게코류 화이트", category: "기타 게코류", price: 89000, stock: 7, status: "분양 가능", image: "https://commons.wikimedia.org/wiki/Special:FilePath/Gekko_gecko.jpg", description: "밝은 색조의 외형을 가진 게코류 예시 상품입니다." },
+  { id: 8, name: "기타 도마뱀 베이비", category: "기타 도마뱀", price: 69000, stock: 9, status: "분양 가능", image: "https://commons.wikimedia.org/wiki/Special:FilePath/Pet_Leopard_Gecko.PNG", description: "작은 크기와 귀여운 외형이 특징인 도마뱀 예시 상품입니다." }
 ];
 
 const MEMBER_GRADES = [
