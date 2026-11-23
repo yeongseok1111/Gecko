@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#276b45">
+  <meta name="description" content="Gecko - 도마뱀과 함께하는 특별한 일상">
+  <title>Gecko | 도마뱀 전문 쇼핑몰</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#home" aria-label="Gecko 홈"><span class="logo-mark">🦎</span> Gecko</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="주 메뉴">
+        <a href="#home">홈</a><a href="#products">상품 보기</a><a href="#guide">분양 안내</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="searchFocus" aria-label="검색으로 이동">⌕</button>
+        <button class="icon-button" id="accountButton" aria-label="로그인 또는 마이페이지">♙</button>
+        <button class="icon-button cart-shortcut" id="cartButton" aria-label="장바구니">🛒 <span id="cartCount">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Gecko 소개 슬라이드">
+      <div class="hero-slide active" style="--hero-image:url('./img/banners/banner1.jpg')"><div class="hero-copy"><p class="eyebrow">작지만 특별한 친구</p><h1>Gecko</h1><p>나만의 작은 자연, 도마뱀과 함께하세요.</p><a class="primary-button" href="#products">상품 둘러보기 <span>→</span></a></div></div>
+      <div class="hero-slide" style="--hero-image:url('./img/banners/banner2.jpg')"><div class="hero-copy"><p class="eyebrow">매일 새로운 매력</p><h2>작은 친구와 시작하는 특별한 하루</h2><p>건강하고 매력적인 게코를 만나보세요.</p><a class="primary-button" href="#products">게코 만나보기 <span>→</span></a></div></div>
+      <div class="hero-slide" style="--hero-image:url('./img/banners/banner3.jpg')"><div class="hero-copy"><p class="eyebrow">초보 사육자도 함께</p><h2>천천히 알아가는 반려의 기쁨</h2><p>나에게 맞는 도마뱀을 찾아보세요.</p><a class="primary-button" href="#guide">분양 안내 <span>→</span></a></div></div>
+      <div class="hero-slide" style="--hero-image:url('./img/banners/banner4.jpg')"><div class="hero-copy"><p class="eyebrow">Gecko와 함께</p><h2>작은 생명과 오래도록 행복하게</h2><p>새로운 가족을 만날 준비가 되셨나요?</p><a class="primary-button" href="#products">쇼핑 시작하기 <span>→</span></a></div></div>
+      <div class="slide-dots" id="slideDots" aria-label="슬라이드 선택"><button class="active" aria-label="1번 슬라이드"></button><button aria-label="2번 슬라이드"></button><button aria-label="3번 슬라이드"></button><button aria-label="4번 슬라이드"></button></div>
+    </section>
+
+    <section class="benefit-strip" aria-label="쇼핑 혜택"><div>🌿 건강한 개체 소개</div><div>♡ 가입 축하 3,000P</div><div>✦ 등급별 최대 7% 적립</div></section>
+
+    <section class="section product-section" id="products">
+      <div class="section-heading"><div><p class="section-kicker">GECKO COLLECTION</p><h2>도마뱀 만나보기</h2><p class="muted">도마뱀 개체별 정보와 분양 가능 여부를 확인해 보세요.</p></div><span class="result-count" id="resultCount"></span></div>
+      <div class="shop-tools"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="상품명을 검색하세요" aria-label="상품 검색"></label><select id="sortSelect" aria-label="상품 정렬"><option value="default">추천순</option><option value="low">낮은 가격순</option><option value="high">높은 가격순</option><option value="name">이름순</option></select></div>
+      <div class="category-tabs" id="categoryTabs" aria-label="상품 분류"></div>
+      <div class="product-table-wrap" aria-label="도마뱀 상품 목록 표">
+        <table class="product-table">
+          <thead><tr><th scope="col">개체</th><th scope="col">분류</th><th scope="col">가격</th><th scope="col">재고</th><th scope="col">분양 여부</th><th scope="col">주문</th></tr></thead>
+          <tbody id="productGrid"></tbody>
+        </table>
+      </div>
+      <p class="empty-state hidden" id="emptyProducts">검색 결과가 없습니다. 다른 검색어를 입력해 주세요.</p>
+    </section>
+
+    <section class="guide-section" id="guide"><div class="guide-content"><p class="section-kicker">A LITTLE CARE, A LOT OF LOVE</p><h2>새로운 가족을 맞이하기 전에</h2><p>도마뱀은 종과 개체에 따라 필요한 사육 환경이 달라요. 충분히 알아보고 책임감 있게 가족으로 맞이해 주세요.</p><div class="guide-points"><span>✓ 사육 환경 확인</span><span>✓ 먹이와 온습도 준비</span><span>✓ 평생 책임지는 마음</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner"><div><a class="logo footer-logo" href="#home">🦎 Gecko</a><p>작은 생명과 함께하는 특별한 일상</p></div><div><strong>고객센터</strong><p>010-1234-5678</p><p>평일 10:00 - 18:00</p></div><div><strong>안내</strong><p>본 사이트는 수업용 체험 쇼핑몰입니다.</p><p>실제 분양 및 결제는 진행되지 않습니다.</p></div></div><div class="copyright">© 2026 Gecko. All rights reserved.</div></footer>
+
+  <div class="modal-backdrop hidden" id="modalBackdrop" role="presentation">
+    <section class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="닫기">×</button><div id="modalContent"></div></section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
